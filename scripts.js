@@ -1,11 +1,27 @@
 // calculator logic
-// caluclator display 
-const display = document.getElementById('display');
 
+// update display
+let displayValue = "";
 
-function multiply(number, secondNumber) {
-    return number * secondNumber;
+function updateDisplay() {
+  if (displayValue === "") {
+    document.getElementById("display").innerHTML = "0";
+  } else {
+    document.getElementById("display").innerHTML = displayValue;
+  }
 }
+
+// append numbers
+function appendNumber(number) {
+  displayValue += number;
+  updateDisplay();
+  console.log(number);
+}
+
+
+/*function multiply(number, secondNumber) {
+    return number * secondNumber;
+}*/
 
 
 

@@ -30,7 +30,7 @@ body {
     font-weight: 300;
 }
 
-.calculator_resultdisplay {
+.display {
     background-color: #222;
     color: white;
     font-size: 3.5em;
