@@ -57,3 +57,20 @@ function appendOperator(operator) {
     console.log(operator + " appended");
   }
 }
+
+//calculate
+function calculate() {
+  if (
+    displayValue !== "" &&
+    !isNaN(displayValue.charAt(displayValue.length - 1))
+  ) {
+    try {
+      const result = eval(displayValue);
+      displayValue = result.toString();
+      updateDisplay();
+    } catch (error) {
+      displayValue = "Error";
+      updateDisplay();
+    }
+  }
+}
