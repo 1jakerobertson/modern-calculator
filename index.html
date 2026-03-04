@@ -26,27 +26,27 @@
                 <button class="button function clear" onclick="clearDisplay()">C</button>
                 <button class="button function" onclick="toggleSign()">+/-</button>
                 <button class="button function" onclick="percent()">%</button>
-                <button class="button operator">÷</button>
+                <button class="button operator" onclick="appendOperator('/')">÷</button>
 
                 <!-- Numbers & Operators -->
                 <button class="button number" onclick="appendNumber('7')">7</button>
                 <button class="button number" onclick="appendNumber('8')">8</button>
                 <button class="button number" onclick="appendNumber('9')">9</button>
-                <button class="button operator" onclick="setOperator('x')">X</button>
+                <button class="button operator" onclick="appendOperator('*')">X</button>
 
                 <button class="button number" onclick="appendNumber('4')">4</button>
                 <button class="button number" onclick="appendNumber('5')">5</button>
                 <button class="button number" onclick="appendNumber('6')">6</button>
-                <button class="button operator">-</button>
+                <button class="button operator" onclick="appendOperator('-')">-</button>
 
                 <button class="button number" onclick="appendNumber('1')">1</button>
                 <button class="button number" onclick="appendNumber('2')">2</button>
                 <button class="button number" onclick="appendNumber('3')">3</button>
-                <button class="button operator">+</button>
+                <button class="button operator" onclick="appendOperator('+')">+</button>
 
                 <!-- Bottom Row (We keep a special class for zero because it spans 2 columns!) -->
                 <button class="button number button_zero" onclick="appendNumber('0')">0</button>
-                <button class="button number decimal">.</button>
+                <button class="button number decimal"onclick="appendOperator('.')">.</button>
                 <button class="button function equals">=</button>
             </div>
         </div>
