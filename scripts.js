@@ -26,6 +26,7 @@ function appendNumber(number) {
 function clearDisplay() {
   displayValue = "";
   updateDisplay();
+  console.log("Display cleared");
 }
 
 /*function multiply(number, secondNumber) {
