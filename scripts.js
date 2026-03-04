@@ -27,6 +27,7 @@ function clearDisplay() {
   displayValue = "";
   updateDisplay();
 }
+
 /*function multiply(number, secondNumber) {
     return number * secondNumber;
 }*/
