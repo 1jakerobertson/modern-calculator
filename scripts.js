@@ -15,18 +15,4 @@ function division(number, secondNumber) {
 }
 
 
-/*function calculator (number, secondNumber, operator) {
-  if (operator === 'multiply') {
-    return multiply(number, secondNumber);
-  } else if (operator === 'addition') {
-    return addition(number, secondNumber);
-  } else if (operator === 'subtraction') {
-    return subtraction(number, secondNumber);
-  } else if (operator === 'division') {
-    return division(number, secondNumber);
-  } else {
-    return 'Invalid operator';
-  }
-}*/
-
 console.log(multiply(5, 10));
