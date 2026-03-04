@@ -1,8 +1,15 @@
+// calculator logic
+// caluclator display 
+const display = document.getElementById('display');
+
+
 function multiply(number, secondNumber) {
     return number * secondNumber;
 }
 
-function addition(number, secondNumber) {
+
+
+/*function addition(number, secondNumber) {
     return number + secondNumber;
 }
 
@@ -15,4 +22,4 @@ function division(number, secondNumber) {
 }
 
 
-console.log(multiply(5, 10));
+console.log(multiply(5, 10));*/

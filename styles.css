@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    background-color: #1e2126;
 }
 
 .calculator_box {
@@ -14,7 +15,7 @@ body {
     box-sizing: border-box;
     margin: 50px auto;
 
-    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
 }
 
 .calculator_header {
