@@ -1,5 +1,9 @@
 // calculator logic
 
+// sanity check
+console.log("Hello World");
+
+
 // update display
 let displayValue = "";
 
