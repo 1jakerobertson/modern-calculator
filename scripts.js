@@ -29,23 +29,11 @@ function clearDisplay() {
   console.log("Display cleared");
 }
 
-/*function multiply(number, secondNumber) {
-    return number * secondNumber;
-}*/
-
-
-
-/*function addition(number, secondNumber) {
-    return number + secondNumber;
-}
-
-function subtraction(number, secondNumber) {
-    return number - secondNumber;
-}
-
-function division(number, secondNumber) {
-    return number / secondNumber;
+function toggleSign() {
+  if (displayValue === "") return;
+  displayValue = displayValue * -1;
+  updateDisplay();
+  console.log("Sign toggled");
 }
 
 
-console.log(multiply(5, 10));*/
