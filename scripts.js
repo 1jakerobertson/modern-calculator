@@ -36,4 +36,9 @@ function toggleSign() {
   console.log("Sign toggled");
 }
 
-
+function percent() {
+  if (displayValue === "") return;
+  displayValue = displayValue / 100;
+  updateDisplay();
+  console.log("Percent toggled");
+}
