@@ -17,12 +17,16 @@ function updateDisplay() {
 
 // append numbers
 function appendNumber(number) {
+  if (displayValue.length >= 8) return;
   displayValue += number;
   updateDisplay();
   console.log(number);
 }
 
-
+function clearDisplay() {
+  displayValue = "";
+  updateDisplay();
+}
 /*function multiply(number, secondNumber) {
     return number * secondNumber;
 }*/
